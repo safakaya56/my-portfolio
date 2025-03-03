@@ -1,0 +1,36 @@
+.html,
+body {
+    overflow-y: auto !important;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutProjects {
+    background: linear-gradient(135deg, #0DB45F, #1ED67C, #47E699);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    animation: gradientAnimation 8s infinite alternate ease-in-out;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(135deg, #0DB45F, #1ED67C, #47E699);
+    }
+
+    50% {
+        background: linear-gradient(135deg, #1ED67C, #47E699, #6FF5B5);
+    }
+
+    100% {
+        background: linear-gradient(135deg, #47E699, #6FF5B5, #9AFFD3);
+    }
+}
+
+.title {
+    text-align: center;
+}

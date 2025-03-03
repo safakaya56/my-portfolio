@@ -1,0 +1,36 @@
+.headerMainContainer {
+    display: flex;
+    justify-content: end;
+
+}
+
+.links {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.links li {
+    cursor: pointer;
+}
+
+.links li:hover {
+    border-bottom: 5px solid #fff;
+    transition: 700ms;
+}
+
+.dropDown {
+    margin-top: 25px;
+    margin-right: 35px;
+}
+
+@media(max-width:412px) {
+    .dropDown {
+        margin-right: 0;
+    }
+}

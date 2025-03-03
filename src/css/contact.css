@@ -1,0 +1,62 @@
+html,
+body {
+    overflow-y: auto !important;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutContact {
+    background: linear-gradient(135deg, #0DB45F, #1ED67C, #47E699);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    animation: gradientAnimation 8s infinite alternate ease-in-out;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 25px;
+}
+
+.contactContainer button {
+
+    color: #0F0F0F;
+    border-color: #fff;
+    border-radius: 25px;
+    width: 15rem;
+    height: 3rem;
+}
+
+.contactContainer button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.logo {
+    color: #0F0F0F;
+    font-size: 1.25rem;
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(135deg, #0DB45F, #1ED67C, #47E699);
+    }
+
+    50% {
+        background: linear-gradient(135deg, #1ED67C, #47E699, #6FF5B5);
+    }
+
+    100% {
+        background: linear-gradient(135deg, #47E699, #6FF5B5, #9AFFD3);
+    }
+}
