@@ -14,7 +14,6 @@ Ana sayfa görünümü:
 
 ## 🚀 Kullanılan Teknolojiler
 
-### **Frontend:**
 - **React** (v19.0.0) - Bileşen tabanlı modern UI
 - **React DOM** (v19.0.0) - React için DOM işlemleri
 - **React Router Dom** (v7.2.0) - Sayfa yönlendirme işlemleri
