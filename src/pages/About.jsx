@@ -71,7 +71,7 @@ function About() {
                     <p className="aboutDescription">
                         Merhaba ben Muhammet Safa Kaya.23 yaşındayım. Bilgisayar Mühendisliği
                         öğrencisiyim. Karabük Üniversitesinde başladığım lisans eğitimime şu anda Yüzüncü Yıl
-                        Üniversitesi 3. sınıf öğrencisi olarak devam ediyorum, 3.20 ortalamaya sahibim. İyi
+                        Üniversitesi 3. sınıf öğrencisi olarak devam ediyorum, 3.06 ortalamaya sahibim. İyi
                         seviyede C#, HTML, CSS , JavaScript, Bootstrap ve React bilgisine sahibim bunların
                         yanında orta seviyede MSSQL ve .NET MVC bilgim var ve bu becerilerimde günden güne
                         kendimi geliştiriyorum. Kendimi bir junior full-stack developer olarak tanımlıyorum.

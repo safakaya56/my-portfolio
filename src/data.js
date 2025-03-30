@@ -2,7 +2,7 @@ export const data = [
     {
         id: 1,
         name: "Diş Kliniği Otomasyonu",
-        description: "dBu, React 19 ve Vite kullanılarak geliştirilmiş modern ve tamamen duyarlı bir e-ticaret web uygulamasıdır. Proje, Redux Toolkit ile durum yönetimi sağlar ve Material UI ve Bootstrap ile şık ve kullanıcı dostu bir arayüze sahiptir. Kullanıcılar kategorileri gezebilir, ürünleri sepete ekleyebilir ve alışveriş deneyimlerini kolayca yönetebilir.",
+        description: "Bu proje, bir diş kliniğinin operasyonlarını yönetmek için geliştirilen bir masaüstü uygulamasıdır. Hasta yönetimi, randevu planlama, günlük istatistikler ve malzeme stok takibi gibi özellikler içermektedir.",
         imageTop: ["/img/dentalCLinicProject.jpg"],
         imagesDetail: ["/img/DentalClinic/1.png", "/img/DentalClinic/2.png", "/img/DentalClinic/3.png"],
         technologies: [
@@ -15,7 +15,7 @@ export const data = [
     {
         id: 2,
         name: "E-Ticaret Sitesi",
-        description: "Bu proje, bir diş kliniğinin operasyonlarını yönetmek için geliştirilen bir masaüstü uygulamasıdır. Hasta yönetimi, randevu planlama, günlük istatistikler ve malzeme stok takibi gibi özellikler içermektedir.",
+        description: "Bu, React 19 ve Vite kullanılarak geliştirilmiş modern ve tamamen duyarlı bir e-ticaret web uygulamasıdır. Proje, Redux Toolkit ile durum yönetimi sağlar ve Material UI ve Bootstrap ile şık ve kullanıcı dostu bir arayüze sahiptir. Kullanıcılar kategorileri gezebilir, ürünleri sepete ekleyebilir ve alışveriş deneyimlerini kolayca yönetebilir.",
         imageTop: ["/img/EcommerceProject.png"],
         imagesDetail: ["/img/eCommerce/1.png", "/img/eCommerce/2.png", "/img/eCommerce/3.png", "/img/eCommerce/4.png", "/img/eCommerce/5.png"],
         technologies: [
