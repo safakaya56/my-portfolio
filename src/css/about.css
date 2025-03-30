@@ -25,17 +25,18 @@
 
 
 .profileImage {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    object-fit: cover;
     border: 3px solid white;
     margin-bottom: 20px;
     transition: 500ms ease-out;
 }
 
 .profileImage:hover {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     transition: 500ms ease-in;
 }
 
