@@ -45,7 +45,7 @@ function About() {
             <div className='aboutText'>
 
                 <motion.img
-                    src="/img/pp.jpg"
+                    src="/img/pp2.jpg"
                     alt="Profil Resmi"
                     className="profileImage"
                     animate={{ rotate: [0, 5, -5, 0] }}
